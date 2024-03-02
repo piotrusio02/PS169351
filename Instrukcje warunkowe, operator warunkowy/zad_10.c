@@ -9,3 +9,4 @@ int main()
     printf((x % 2 == 0) ? "parzysta" : "nieparzysta");
     return 0;
 }
+
