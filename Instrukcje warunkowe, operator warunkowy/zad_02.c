@@ -13,3 +13,4 @@ int main()
         printf("wieksza: %d", b); }
     return 0;
 }
+
