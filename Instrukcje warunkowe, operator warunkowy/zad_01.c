@@ -14,3 +14,4 @@ int main()
         printf("Liczba jest rowna zero"); }
     return 0;
 }
+
