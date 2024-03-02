@@ -12,3 +12,4 @@ int main()
     printf("wieksza liczba to: %d", wieksza);
     return 0;
 }
+
