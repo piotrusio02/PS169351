@@ -13,3 +13,4 @@ int main()
     printf("Najmniejsza liczba to: %d", najmniejsza);
     return 0;
 }
+
