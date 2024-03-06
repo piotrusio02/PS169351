@@ -5,7 +5,7 @@ int main() {
     int dodatnie = 0;
     int ujemne = 0;
     int n;
-    while(1){
+    do{
         printf("Podaj liczbe: ");
         scanf("%d", &n);
         if (n > 0){
@@ -13,10 +13,8 @@ int main() {
         }
         else if (n < 0){
             ujemne += n;
-        }
-        else {
-            break;
         }}
+        while (n != 0);
     printf("suma liczb dodatnich: %d\n", dodatnie);
     printf("suma liczb ujemnych: %d\n", ujemne);
 
