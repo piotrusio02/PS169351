@@ -5,7 +5,7 @@ metodą nierekurencyjną. Stwórz przypadek testowy. */
 #include <stdio.h>
 #include <stdlib.h>
 
-int calculateFactorial(int x){
+int calculateFactorial(int unsigned x){
     int silnia = 1;
     for(int i = 1;i<x+1;i++){
         silnia = silnia * i;
@@ -17,7 +17,7 @@ int calculateFactorial(int x){
 
 int main(){
 
-    int x;
+    int unsigned x;
     printf("podaj liczbe: ");
     scanf("%d", &x);
     printf("%d",calculateFactorial(x));
