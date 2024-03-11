@@ -1,3 +1,6 @@
+/* Napisz funkcję sumTwoNumbers, której argumentami są dwie liczby całkowite. Funkcja
+ma wyświetlać sumę liczb przekazany jako argument funkcji. Stwórz przypadek testowy */
+
 #include <stdio.h>
 #include <stdlib.h>
 
