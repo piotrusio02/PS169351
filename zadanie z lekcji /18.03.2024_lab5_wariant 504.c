@@ -2,7 +2,7 @@
 typu int. Funkcja powinna dodać wartość 5 do zmiennej wskazywanej przez pierwszy wskaźnik, 
 10 do zminnej wskazywanej przez drugi wskaźnik i 15 do zmiennej wskazywanej przez trzeci
 wskaźnik. Stwórz przypadek testowy w main tak, aby wyświetlić na konsoli wartości zmiennych
-przed i po dodadaniu wartości.
+przed i po dodadaniu wartości. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,8 +17,9 @@ int main(){
     int x = 1;
     int y = 2;
     int z = 3;
-    printf("%d %d %d\n", x, y, z);
+    printf("%d, %d, %d\n", x, y, z);   // wynik wyjsciowy: 1, 2, 3
     add_to_pointers(&x,&y,&z);
-    printf("%d %d %d", x, y, z);
+    printf("%d, %d, %d", x, y, z);   //wynik wyjsciowy: 6, 12, 18
 return 0;
 }
+
