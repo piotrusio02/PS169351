@@ -11,6 +11,7 @@ void strNcopy(char nap1[], char nap2[], int n){
         else {
         nap2[i] = nap1[i];
     }}
+    nap2[i] = '\0';
 }
 
 int main()
