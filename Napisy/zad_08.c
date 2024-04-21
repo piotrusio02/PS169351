@@ -1,5 +1,4 @@
-/* "Zakładamy, że w tablicy docelowej jest wystarczająco dużo miejsca" rozumiem,
-  że mogłem podać dowolną wielkość, taką by po prostu napewno była większa */
+
 
 #include <stdio.h>
 #include <stdlib.h>
