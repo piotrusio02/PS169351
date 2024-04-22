@@ -22,3 +22,19 @@ int main()
     printf("%s", nap3);
     return 0;
 }
+
+/* funkcja - rozwiazanie z zajec 
+
+void strConcat(char nap1[], char nap2[], char nap3[]){
+    int i;
+    for(i = 0; nap1[i]!=0;i++){
+        nap3[i] = nap1[i];
+    }
+    int j;
+    for(j;nap2[j] != 0; i++){
+        nap3[i+j] = nap2[j];
+    }
+    nap3[i+j] = 0;
+}
+
+*/
