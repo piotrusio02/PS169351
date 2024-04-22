@@ -10,6 +10,7 @@ void rmDigits(char nap[]){
             }
         i = i-1;
     }}
+    nap[i] = '\0';
 }
 
 
