@@ -34,4 +34,5 @@ int main(){
     printTable(3,tab);
     transArr(3,tab);
     printTable(3,tab);
+    return 0;
 }
