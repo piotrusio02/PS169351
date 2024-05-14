@@ -40,4 +40,5 @@ int main(){
 
     printTable(3,3,tab);
     printf("%d", evenSum(3,3,tab));
+    return 0;
 }
