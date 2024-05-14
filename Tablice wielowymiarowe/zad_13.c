@@ -28,4 +28,5 @@ int main(){
     printTable(3,tab);
     transpose(3,tab);
     printTable(3,tab);
+    return 0;
 }
