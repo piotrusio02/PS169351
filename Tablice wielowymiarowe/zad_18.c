@@ -41,4 +41,5 @@ int main(){
     printTable(3,2,tab2);
     flipDiag(3,2,tab2);
     printTable(3,2,tab2);
+    return 0;
 }
