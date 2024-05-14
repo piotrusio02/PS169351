@@ -57,5 +57,5 @@ int main(){
 
     printTable(2,1,tab2);
     printf("%d", oddAvg(2,1,tab2));
-
+    return 0;
 }
